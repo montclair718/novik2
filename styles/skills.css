@@ -1,0 +1,82 @@
+#skills h2 {
+    margin-top: 91px;
+    font-family: Gilroy-Bold;
+font-size: 34px;
+line-height: 26px;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 124px;
+}
+
+#skills p {
+    margin-top: 69px;
+    margin-bottom: 87px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 228px;
+}
+.upper {
+   
+    max-width: 884px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lower {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.lower span {
+    font-family: Gilroy-Bold;
+font-size: 14px;
+line-height: 27px;
+text-align: center;
+margin-bottom: 41px;
+max-width: 79px;
+min-height:  34px;
+}
+
+.inside3 {
+    margin-top: auto;
+}
+
+.imag {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 425px) {
+    #skills h2 {
+        margin-top: 83px;
+        max-width: 88px;
+    }
+    #skills p {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .upper { 
+        
+        max-width: 164px;
+        flex-direction: column; 
+        align-content:space-between;
+        row-gap: 80px;
+        margin-bottom: 100px;
+        
+    }
+}

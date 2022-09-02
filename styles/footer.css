@@ -1,0 +1,25 @@
+
+
+p {
+margin-top: 45px;
+font-family: Gilroy-Medium;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+max-width: 243px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 24px;
+color:#828282;
+}
+    
+@media (max-width: 425px) {
+     .h2__wrappper {
+        max-width: 315px;
+        max-height: 64px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+        color:#828282;
+        }
+}

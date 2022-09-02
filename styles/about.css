@@ -1,0 +1,24 @@
+#about {
+    padding: 120px 0 107px 0;
+    background-color: #f6f6f6;
+}
+
+#about p {
+    max-width: 485px;
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+
+}
+
+@media (max-width: 425px) {
+    #about {
+        padding: 81px 29px 76px;
+    }
+
+    #about p {
+        max-width: 316px;
+}
+}
